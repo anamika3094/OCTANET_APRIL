@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-image: url(https://img.freepik.com/frehttps://img.freepik.com/free-photo/close-up-green-leaves-nature_23-2149006000.jpg?w=740&t=st=1712482249~exp=1712482849~hmac=eaaaa9f00b198177a5501b316276d1efcc501a49c1fb89b9da4ea1c54c856acbe-vector/copy-space-bokeh-spring-lights-background_52683-55649.jpg?w=740&t=st=1712481173~exp=1712481773~hmac=c3a885a1a28f4ee759defe03213e09e539db7c3c9eb7aba07b62c1039d17cf77);
+    background-size: cover;
+    height: 100vh;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.logo img {
+    width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    border-radius: 5px;
+    border: 10px solid #a9ce9a;
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    background-color: #a9ce9a;
+}
+nav ul li a:hover
+{
+    
+    text-decoration: none;
+    border-bottom: 4px solid #000;
+    background-color:#a9ce9a;
+    font-size:25px;
+    color:rgb(0, 0, 0);;
+    transition: 1s;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px);
+}
+
+.content {
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 1px;
+    color: #000000;
+    margin-top: -200px;
+}
+
+.tagline {
+    font-size: 25px;
+    color: #8beb63; /* Shades of green */
+    margin-top: -25px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #000000;
+}
+
+.signin {
+    font-size: 20px;
+    background-color: #6ab04c; /* Green */
+    margin-right: 10px;
+}
+
+.login {
+    font-size: 20px;
+    background-color: #4a8f3d; /* Darker Green */
+}
+
+.hidden {
+    display: none;
+}
+/* Existing CSS styles */
+
+/* Position forms above everything */
+form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    background-color: #4a8f3d;
+    border: 90px solid #4a8f3d;
+}
